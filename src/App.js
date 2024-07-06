@@ -17,10 +17,12 @@ export default function App() {
             <Skills />
             <Contact />
 
-            <a target="_blank" href="https://icons8.com/icon/19318/youtube">YouTube</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
-            <a target="_blank" href="https://icons8.com/icon/13930/linkedin">LinkedIn</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
-            <a target="_blank" href="https://icons8.com/icon/63777/github">GitHub</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
-            <a target="_blank" href="https://icons8.com/icon/ClbD5JTFM7FA/twitterx">TwitterX</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+            <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+              <span className="flex p-4"><a target="_blank" href="https://icons8.com/icon/19318/youtube">YouTube</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></span>
+              <span className="flex p-4"><a target="_blank" href="https://icons8.com/icon/13930/linkedin">LinkedIn</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></span>
+              <span className="flex p-4"><a target="_blank" href="https://icons8.com/icon/63777/github">GitHub</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></span>
+              <span className="flex p-4"><a target="_blank" href="https://icons8.com/icon/ClbD5JTFM7FA/twitterx">TwitterX</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></span>
+            </div>
         </main>
     );
 }
