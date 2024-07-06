@@ -146,3 +146,26 @@ export const interests = [
   "Horror Games",
   "Kingdom Hearts"
 ];
+
+export const contacts = [
+  {
+    title: "GitHub",
+    image: "./Github.png",
+    link: "https://github.com/WaterKH",
+  },
+  {
+    title: "YouTube",
+    image: "./YouTube.png",
+    link: "https://www.youtube.com/@WaterKH",
+  },
+  {
+    title: "Twitter",
+    image: "./Twitter.png",
+    link: "https://x.com/water_kh",
+  },
+  {
+    title: "LinkedIn",
+    image: "./LinkedIn.png",
+    link: "https://www.linkedin.com/in/pjacobclark/",
+  },
+];
