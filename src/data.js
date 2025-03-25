@@ -13,7 +13,7 @@ export const kh_projects = [
     description:
       "Reverse Engineered and implemented a GUI to help guide players into making their own custom seeds to load into Kingdom Hearts III. There were two sides to this project: the UE4 mod and the Seed Generator, which is hosted online as well as also available as a local client. I co-developed the UE4 integration with another person and fully wrote the seed generator. I've made the latter open source and am still reviewing updates and patches received.",
     image: "./GoA+Rnd.png",
-    link: "https://kh3-randomizer-2ivd7.ondigitalocean.app/",
+    link: "https://github.com/WaterKH/KH3RandomizerClient",
   },
   {
     title: "Re:Chart",
